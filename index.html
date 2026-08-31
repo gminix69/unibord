@@ -1,0 +1,1077 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UNI-BORD × TEAM7 — Proposta Comercial de Parceria Têxtil Oficial</title>
+  <meta name="description" content="Apresentação comercial e estratégica de parceria têxtil, confecção exclusiva e co-branding entre a UNI-BORD e a organização TEAM7.">
+  
+  <!-- Apple-Grade Typography: Mona Sans by GitHub / Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #080808;
+      --bg-surface: #111110;
+      --bg-card: #161513;
+      --bg-card-hover: #1c1b18;
+      --text-main: #f5f5f7;
+      --text-muted: #86868b;
+      --text-dim: #515154;
+      --accent-gold: #c9933b;
+      --accent-gold-light: #dfa84e;
+      --border-subtle: rgba(201, 147, 59, 0.2);
+      --border-strong: rgba(201, 147, 59, 0.5);
+      --border-divider: rgba(255, 255, 255, 0.08);
+      --container-width: 1140px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      letter-spacing: -0.01em;
+    }
+
+    /* Layout Container */
+    .container {
+      width: 100%;
+      max-width: var(--container-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Apple-Style Clean Typography */
+    h1, h2, h3, h4 {
+      font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      font-weight: 700;
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+      color: var(--text-main);
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 1.02rem;
+      line-height: 1.65;
+    }
+
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #a1a1a6;
+      line-height: 1.6;
+      letter-spacing: -0.015em;
+    }
+
+    .meta-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent-gold);
+      margin-bottom: 12px;
+    }
+
+    /* Navigation */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(8, 8, 8, 0.85);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 1px solid var(--border-divider);
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 68px;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+
+    .nav-logo {
+      height: 36px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-brand-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: 0.04em;
+    }
+
+    .nav-brand-sub {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent-gold);
+      font-weight: 600;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-menu a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.84rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      transition: color 0.2s ease;
+    }
+
+    .nav-menu a:hover {
+      color: var(--text-main);
+    }
+
+    /* Clean Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 980px;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--text-main);
+      color: #000000;
+      border: 1px solid var(--text-main);
+    }
+
+    .btn-primary:hover {
+      background: #ffffff;
+      transform: scale(1.02);
+    }
+
+    .btn-gold {
+      background: var(--accent-gold);
+      color: #000000;
+      border: 1px solid var(--accent-gold);
+      font-weight: 700;
+    }
+
+    .btn-gold:hover {
+      background: var(--accent-gold-light);
+      border-color: var(--accent-gold-light);
+      transform: scale(1.02);
+    }
+
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      border: 1px solid var(--border-divider);
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Hero Section with Video Showcase */
+    .hero {
+      padding: 70px 0 80px;
+      border-bottom: 1px solid var(--border-divider);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-size: clamp(2.8rem, 4.5vw, 4.2rem);
+      letter-spacing: -0.04em;
+      margin-bottom: 20px;
+    }
+
+    .hero-title span {
+      color: var(--accent-gold);
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      margin-top: 32px;
+      align-items: center;
+    }
+
+    /* Video Player Card in Hero */
+    .hero-video-card {
+      position: relative;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-video-wrapper {
+      position: relative;
+      width: 100%;
+      height: 440px;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-video-wrapper video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-video-badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(10px);
+      padding: 6px 12px;
+      border-radius: 980px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      z-index: 2;
+    }
+
+    .hero-video-badge::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #ff453a;
+      box-shadow: 0 0 6px #ff453a;
+    }
+
+    .hero-video-footer {
+      padding: 16px 20px;
+      background: var(--bg-card);
+      border-top: 1px solid var(--border-divider);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .hero-video-footer strong {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .hero-video-footer span {
+      font-size: 0.74rem;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+    }
+
+    /* Metric Strip */
+    .metric-strip {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-divider);
+    }
+
+    .metric-cell {
+      padding: 24px 16px;
+      border-right: 1px solid var(--border-divider);
+      text-align: center;
+    }
+
+    .metric-cell:last-child {
+      border-right: none;
+    }
+
+    .metric-val {
+      font-size: 1.85rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text-main);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .metric-lbl {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    /* Section Standard */
+    .section {
+      padding: 84px 0;
+      border-bottom: 1px solid var(--border-divider);
+    }
+
+    .section-head {
+      margin-bottom: 48px;
+      max-width: 720px;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      letter-spacing: -0.03em;
+      margin-bottom: 14px;
+    }
+
+    /* Commercial Framework Table */
+    .deal-structure {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .deal-column {
+      background: var(--bg-card);
+      border: 1px solid var(--border-divider);
+      border-radius: 12px;
+      padding: 32px 28px;
+    }
+
+    .deal-column.highlight {
+      border-color: var(--border-strong);
+      background: linear-gradient(180deg, #181613 0%, #141311 100%);
+    }
+
+    .deal-column-header {
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+      border-bottom: 1px solid var(--border-divider);
+    }
+
+    .deal-column-header h3 {
+      font-size: 1.3rem;
+      margin-top: 4px;
+    }
+
+    .deal-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .deal-item {
+      display: flex;
+      gap: 14px;
+    }
+
+    .deal-num {
+      font-weight: 700;
+      color: var(--accent-gold);
+      font-size: 0.9rem;
+      min-width: 22px;
+    }
+
+    .deal-text h4 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 3px;
+    }
+
+    .deal-text p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* Pillars Grid */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .pillar-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-divider);
+      border-radius: 12px;
+      padding: 26px;
+      transition: border-color 0.2s ease;
+    }
+
+    .pillar-box:hover {
+      border-color: var(--border-strong);
+    }
+
+    .pillar-box-num {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      margin-bottom: 14px;
+    }
+
+    .pillar-box h3 {
+      font-size: 1.15rem;
+      margin-bottom: 8px;
+    }
+
+    .pillar-box p {
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    /* Lookbook Grid with Videos & Photos */
+    .lookbook-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .lookbook-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-divider);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .lookbook-media {
+      height: 250px;
+      background: #000;
+      position: relative;
+    }
+
+    .lookbook-media img,
+    .lookbook-media video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .lookbook-info {
+      padding: 22px;
+    }
+
+    .lookbook-info h3 {
+      font-size: 1.12rem;
+      margin-bottom: 6px;
+    }
+
+    .lookbook-info p {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      line-height: 1.55;
+    }
+
+    .lookbook-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag-item {
+      font-size: 0.72rem;
+      padding: 4px 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 4px;
+      color: #a1a1a6;
+      font-weight: 500;
+    }
+
+    /* Step Process */
+    .process-timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .process-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-divider);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .process-step {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .process-card h3 {
+      font-size: 1.08rem;
+      margin-bottom: 6px;
+    }
+
+    .process-card p {
+      font-size: 0.84rem;
+      line-height: 1.55;
+    }
+
+    /* Direct Contact / Pitch Closure */
+    .pitch-closure {
+      padding: 90px 0;
+      text-align: center;
+      background: radial-gradient(circle at 50% 50%, rgba(201, 147, 59, 0.06) 0%, transparent 65%);
+    }
+
+    .pitch-closure-box {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .pitch-closure h2 {
+      font-size: 2.6rem;
+      letter-spacing: -0.04em;
+      margin-bottom: 16px;
+    }
+
+    .pitch-closure p {
+      font-size: 1.1rem;
+      margin-bottom: 32px;
+    }
+
+    .contact-actions {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 36px 0;
+      border-top: 1px solid var(--border-divider);
+      background: var(--bg-dark);
+      font-size: 0.82rem;
+      color: var(--text-dim);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-brand-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-logo {
+      height: 28px;
+      width: auto;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .deal-structure {
+        grid-template-columns: 1fr;
+      }
+
+      .pillars-grid,
+      .lookbook-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .process-timeline {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .metric-strip {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .metric-cell:nth-child(3) {
+        border-right: none;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .nav-menu {
+        display: none;
+      }
+
+      .hero-title {
+        font-size: 2.3rem;
+      }
+
+      .pillars-grid,
+      .lookbook-grid,
+      .process-timeline {
+        grid-template-columns: 1fr;
+      }
+
+      .metric-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .metric-cell:nth-child(2n) {
+        border-right: none;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .contact-actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#inicio" class="nav-brand">
+        <img src="./assets/unibord_crest_gold.png" alt="UNI-BORD" class="nav-logo">
+        <div class="nav-brand-text">
+          <span class="nav-brand-title">UNI-BORD</span>
+          <span class="nav-brand-sub">Uniformização & Bordados</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#alianca">Aliança</a></li>
+        <li><a href="#termos">Estrutura Comercial</a></li>
+        <li><a href="#capacidade">Capacidade</a></li>
+        <li><a href="#produtos">Coleções</a></li>
+        <li><a href="#piloto">Piloto</a></li>
+      </ul>
+
+      <a href="https://wa.me/351920187843?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20a%20proposta%20comercial%20UNI-BORD%20x%20TEAM7." target="_blank" rel="noopener" class="btn btn-gold">
+        Iniciar Negociação
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Live Machine Embroidery Video -->
+  <header class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div>
+        <span class="meta-tag">Proposta Comercial Estratégica</span>
+        <h1 class="hero-title">A confecção oficial do ecossistema <span>TEAM7.</span></h1>
+        <p class="lead">
+          A UNI-BORD propõe assumir a produção exclusiva de todo o vestuário, bonés, fardamento e merchandising oficial da TEAM7 — garantindo preço direto de fábrica, desenvolvimento de novos produtos e acabamento de alta precisão.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#termos" class="btn btn-primary">Termos Comerciais</a>
+          <a href="#produtos" class="btn btn-outline">Ver Produtos & Amostras</a>
+        </div>
+      </div>
+
+      <div class="hero-video-card">
+        <div class="hero-video-wrapper">
+          <div class="hero-video-badge">Produção em Tempo Real</div>
+          <video autoplay loop muted playsinline poster="./assets/bones_team7.png">
+            <source src="./assets/video_maquina_bordando.mp4" type="video/mp4">
+            O seu navegador não suporta a tag de vídeo.
+          </video>
+        </div>
+        <div class="hero-video-footer">
+          <strong>Maquinário Industrial de Precisão</strong>
+          <span>Bordado 3D de Alta Densidade</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Data Metric Strip (Ecossistema TEAM7) -->
+  <section class="metric-strip" id="alianca">
+    <div class="metric-cell">
+      <div class="metric-val">+15M</div>
+      <div class="metric-lbl">Alcance Mensal</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val">14K</div>
+      <div class="metric-lbl">Instagram</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val">17K</div>
+      <div class="metric-lbl">TikTok</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val">+3.000</div>
+      <div class="metric-lbl">Discord Oficial</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val">+50</div>
+      <div class="metric-lbl">Criadores / Players</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val">30+</div>
+      <div class="metric-lbl">Eventos / Ano</div>
+    </div>
+  </section>
+
+  <!-- Estrutura Comercial de Mão Dupla (Diretrizes do Áudio) -->
+  <section class="section" id="termos">
+    <div class="container">
+      <div class="section-head">
+        <span class="meta-tag">Acordo de Parceria</span>
+        <h2 class="section-title">Estrutura Comercial e Obrigatoriedades</h2>
+        <p>
+          Uma aliança comercial sólida estabelece regras claras: a UNI-BORD assegura capacidade industrial e vantagens de custo; a TEAM7 garante a exclusividade de mercado e o retorno de imagem nos seus canais.
+        </p>
+      </div>
+
+      <div class="deal-structure">
+        
+        <!-- O que a UNI-BORD entrega -->
+        <div class="deal-column highlight">
+          <div class="deal-column-header">
+            <span class="meta-tag">Fornecimento & Indústria</span>
+            <h3>Compromissos da UNI-BORD</h3>
+          </div>
+
+          <ul class="deal-list">
+            <li class="deal-item">
+              <span class="deal-num">01</span>
+              <div class="deal-text">
+                <h4>Preço de Parceiro Estratégico (Direto de Fábrica)</h4>
+                <p>Margens diferenciadas sem intermediação comercial, garantindo maior rentabilidade para a loja da TEAM7 e menor custo no fardamento da equipa.</p>
+              </div>
+            </li>
+
+            <li class="deal-item">
+              <span class="deal-num">02</span>
+              <div class="deal-text">
+                <h4>Condições e Facilidades de Pagamento</h4>
+                <p>Planos de faturamento alinhados ao fluxo de caixa de eventos, lançamentos de coleções e cronogramas de patrocínio.</p>
+              </div>
+            </li>
+
+            <li class="deal-item">
+              <span class="deal-num">03</span>
+              <div class="deal-text">
+                <h4>P&D e Desenvolvimento de Novos Produtos</h4>
+                <p>Apoio criativo e técnico contínuo na criação de novas modelagens, testes de matrizes 3D, prototipagem rápida e desenvolvimento de coleções exclusivas.</p>
+              </div>
+            </li>
+
+            <li class="deal-item">
+              <span class="deal-num">04</span>
+              <div class="deal-text">
+                <h4>Garantia de Matérias-Primas Superiores</h4>
+                <p>Uso rigoroso dos melhores tecidos e fios de alta tenacidade do mercado europeu, com resistência a lavagens contínuas e uso intensivo.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- O que a TEAM7 entrega -->
+        <div class="deal-column">
+          <div class="deal-column-header">
+            <span class="meta-tag">Exclusividade & Imagem</span>
+            <h3>Compromissos da TEAM7</h3>
+          </div>
+
+          <ul class="deal-list">
+            <li class="deal-item">
+              <span class="deal-num">01</span>
+              <div class="deal-text">
+                <h4>Exclusividade Têxtil e de Merchandising</h4>
+                <p>A totalidade dos produtos têxteis, fardas de staff, jerseys de competição, bonés e merchandising comercializados ou vestidos pela TEAM7 é produzida exclusivamente pela UNI-BORD.</p>
+              </div>
+            </li>
+
+            <li class="deal-item">
+              <span class="deal-num">02</span>
+              <div class="deal-text">
+                <h4>Co-Branding e Assinatura Técnica de Fabricação</h4>
+                <p>Todas as peças confeccionadas carregarão a chancela oficial da UNI-BORD (tag bordada, etiqueta interna ou selo de autenticidade "Produced by UNI-BORD").</p>
+              </div>
+            </li>
+
+            <li class="deal-item">
+              <span class="deal-num">03</span>
+              <div class="deal-text">
+                <h4>Retorno de Imagem e Divulgação nos Canais Oficiais</h4>
+                <p>Inclusão da UNI-BORD como Parceiro Têxtil Oficial no website da organização, nas livestreams dos criadores (+50 streamers), Discord e backdrops de palco nos eventos presenciais.</p>
+              </div>
+            </li>
+
+            <li class="deal-item">
+              <span class="deal-num">04</span>
+              <div class="deal-text">
+                <h4>Ações Conjuntas de Conteúdo</h4>
+                <p>Divulgação de vídeos de bastidores da produção têxtil, unboxings de kits de influenciadores e ativações digitais com a comunidade.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Capacidade Técnica e Pilares Operacionais -->
+  <section class="section" id="capacidade">
+    <div class="container">
+      <div class="section-head">
+        <span class="meta-tag">Controlo Industrial</span>
+        <h2 class="section-title">Pilares Operacionais da UNI-BORD</h2>
+        <p>
+          A nossa fábrica combina maquinário industrial de alta precisão com acabamento manual, permitindo atender tanto pedidos ágeis sob demanda quanto grandes volumes para feiras e torneios.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        
+        <div class="pillar-box">
+          <div class="pillar-box-num">01</div>
+          <h3>Bordado de Alta Densidade (3D & Plano)</h3>
+          <p>
+            Matrizes calibradas com precisão milimétrica para relevo consistente em bonés estruturados e micro-pontos para escudos detalhados.
+          </p>
+        </div>
+
+        <div class="pillar-box">
+          <div class="pillar-box-num">02</div>
+          <h3>Flexibilidade de Lotes e Produção Sob Demanda</h3>
+          <p>
+            Capacidade de produzir desde peças individuais personalizadas para novos criadores de conteúdo até lotes massivos de fardamento para staff.
+          </p>
+        </div>
+
+        <div class="pillar-box">
+          <div class="pillar-box-num">03</div>
+          <h3>Inspeção Rigorosa Peça a Peça</h3>
+          <p>
+            Cada item passa por verificação manual de costura, alinhamento e acabamento antes de ser embalado e despachado.
+          </p>
+        </div>
+
+        <div class="pillar-box">
+          <div class="pillar-box-num">04</div>
+          <h3>Rapidez de Entrega em Portugal</h3>
+          <p>
+            Produção local que elimina atrasos de importação alfandegária e permite reposição imediata para eventos imprevistos.
+          </p>
+        </div>
+
+        <div class="pillar-box">
+          <div class="pillar-box-num">05</div>
+          <h3>Assessoria Têxtil Personalizada</h3>
+          <p>
+            Orientação na escolha dos tecidos mais adequados para cada finalidade: vestuário de palco, streetwear ou fardamento corporativo.
+          </p>
+        </div>
+
+        <div class="pillar-box">
+          <div class="pillar-box-num">06</div>
+          <h3>Canal Direto de Atendimento</h3>
+          <p>
+            Comunicação direta e sem intermediários com os responsáveis de produção para ajustes rápidos e aprovações de matriz.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio Modular de Produtos -->
+  <section class="section" id="produtos">
+    <div class="container">
+      <div class="section-head">
+        <span class="meta-tag">Linhas de Produção & Provas Reais</span>
+        <h2 class="section-title">Soluções Desenvolvidas para a TEAM7</h2>
+        <p>
+          Linhas de produtos com acabamento industrial comprovado e preparadas para personalização integral com a identidade visual da TEAM7.
+        </p>
+      </div>
+
+      <div class="lookbook-grid">
+        
+        <!-- Card 1: Bonés TEAM7 Prontos (Vídeo Real) -->
+        <div class="lookbook-card">
+          <div class="lookbook-media">
+            <video autoplay loop muted playsinline poster="./assets/bones_team7.png">
+              <source src="./assets/video_bones_team7.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="lookbook-info">
+            <h3>Lote Real de Bonés TEAM7</h3>
+            <p>Amostras reais produzidas pela UNI-BORD em preto e branco com o emblema TEAM7 bordado em alta densidade e acabamento traseiro exclusivo.</p>
+            <div class="lookbook-tags">
+              <span class="tag-item">Produção Real</span>
+              <span class="tag-item">Bordado 3D</span>
+              <span class="tag-item">Snapback / Strapback</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Patches e Aplicações -->
+        <div class="lookbook-card">
+          <div class="lookbook-media">
+            <img src="./assets/patches_team7.png" alt="Patches e Acessórios Bordados">
+          </div>
+          <div class="lookbook-info">
+            <h3>Patches & Aplicações Especiais</h3>
+            <p>Emblemas termocolantes e com velcro para casacos, mochilas e coletes. Perfeito para edições limitadas e kits promocionais em feiras.</p>
+            <div class="lookbook-tags">
+              <span class="tag-item">Termocolante / Velcro</span>
+              <span class="tag-item">Corte a Laser</span>
+              <span class="tag-item">Colecionável</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Oficina & Chão de Fábrica (Vídeo do Atelier) -->
+        <div class="lookbook-card">
+          <div class="lookbook-media">
+            <video autoplay loop muted playsinline poster="./assets/processo_fabrica.png">
+              <source src="./assets/video_atelier_fabrica.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="lookbook-info">
+            <h3>Atelier & Infraestrutura Fabril</h3>
+            <p>Parque de máquinas industriais multi-cabeças capazes de assegurar pontualidade em lotes de grande escala para todos os eventos da TEAM7.</p>
+            <div class="lookbook-tags">
+              <span class="tag-item">Indústria Local</span>
+              <span class="tag-item">Multi-Cabeças</span>
+              <span class="tag-item">Capacidade de Escala</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Proposta de Piloto em 4 Etapas -->
+  <section class="section" id="piloto">
+    <div class="container">
+      <div class="section-head">
+        <span class="meta-tag">Execução Prática</span>
+        <h2 class="section-title">Validação Piloto em 4 Passos</h2>
+        <p>
+          Antes de qualquer compromisso de longo prazo, propomos um ciclo piloto ágil para a TEAM7 comprovar a qualidade do material e a velocidade de resposta da UNI-BORD.
+        </p>
+      </div>
+
+      <div class="process-timeline">
+        
+        <div class="process-card">
+          <div class="process-step">Fase 01</div>
+          <h3>Alinhamento do Piloto</h3>
+          <p>Seleção do produto de teste inicial (por exemplo: lote de bonés 3D e hoodies para influenciadores ou staff).</p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-step">Fase 02</div>
+          <h3>Confecção das Amostras</h3>
+          <p>Produção física das primeiras amostras para verificação de acabamento, caimento e brilho das linhas.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-step">Fase 03</div>
+          <h3>Lançamento & Teste de Tração</h3>
+          <p>Entrega das peças para os criadores e acompanhamento da repercussão inicial nas transmissões e redes.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-step">Fase 04</div>
+          <h3>Fechamento do Acordo Anual</h3>
+          <p>Validados os materiais, consolida-se o contrato de fornecimento exclusivo para o calendário de eventos e drops.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pitch Closure & Chamada Direta para Reunião -->
+  <section class="pitch-closure">
+    <div class="container pitch-closure-box">
+      <span class="meta-tag">Próximo Passo Comercial</span>
+      <h2>Vamos produzir o piloto da TEAM7?</h2>
+      <p>
+        Estamos à disposição para agendar uma reunião presencial ou chamada de 15 minutos com a direção da TEAM7 para apresentar as amostras físicas e acertar os detalhes do primeiro lote.
+      </p>
+
+      <div class="contact-actions">
+        <a href="https://wa.me/351920187843?text=Ol%C3%A1%2C%20analisamos%20a%20proposta%20comercial%20UNI-BORD%20x%20TEAM7%20e%20gostar%C3%ADamos%20de%20agendar%20uma%20conversa%20para%20alinhar%20as%20amostras%20do%20piloto." target="_blank" rel="noopener" class="btn btn-gold">
+          Falar Diretamente no WhatsApp
+        </a>
+        <a href="tel:+351920187843" class="btn btn-outline">
+          Contacto Telefónico: +351 920 187 843
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-info">
+        <img src="./assets/unibord_crest_gold.png" alt="UNI-BORD Logo" class="footer-logo">
+        <div>
+          <strong style="color: var(--text-main);">UNI-BORD</strong> — Uniformes & Bordados Industriais (Portugal)
+        </div>
+      </div>
+
+      <div>
+        Proposta Comercial Oficial de Parceria Estratégica • UNI-BORD × TEAM7 (2026)
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
